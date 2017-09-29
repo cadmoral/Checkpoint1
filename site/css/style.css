@@ -1,0 +1,124 @@
+body{
+	
+	background-color: black;
+}
+
+
+.navigation{
+
+	margin-left: 15px;
+	margin-right: 15px;
+	background-color: black;
+	height: 30px;
+	position: fixed;
+	z-index: 1;
+	border-radius: 25px;
+
+}
+
+
+
+.menu-nav .mot {
+	color: white;
+	font-size: 20px;
+	font-weight: bolder;
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	
+}
+
+
+header {
+    background-image: url(../img/morelos.jpg);
+    height: 900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-left:-15px;
+    margin-right:-15px;
+}
+
+
+
+h1{
+	top: 450px;
+	padding: 10px;
+  background-color: black;
+  border-radius:10px;
+  font-weight:bold;
+  font-size: 60px;
+  color: white;
+  position: absolute;
+  text-align: center;
+
+
+}
+
+.section1{
+	text-align: center;
+	 color: white;
+	padding-right: 15px;
+	border: solid black;
+	border-radius: 25px;
+	padding-bottom: 40px;
+
+}
+
+.tepoz1{
+	margin: 30px;
+	width: 400px;
+	height: 300px;
+}
+
+footer {
+	background-color: #323232;
+}
+
+footer .liens{
+	padding-top: 30px;
+	margin-top: 60px;
+	text-align: center;
+	font-weight: bolder;
+	text-decoration: none;
+	font-size: 30px;
+	list-style: none;
+	color: white;
+}
+
+footer .liens a{
+	color: white;
+}
+
+span {
+	font-style: italic;
+}
+
+@media screen and (max-width: 900px){
+	.tepoz1{
+			
+		max-width:250px;
+  		max-height:300px;
+  		width: auto;
+  		height: auto;
+	}
+}
+
+@media screen and (max-width: 550px){
+	.tepoz1{
+		max-width: 100px;
+		max-height: 200px;
+		width: auto;
+		height: auto;
+	}
+
+	.navigation{
+		height: 80px;
+	}
+}
